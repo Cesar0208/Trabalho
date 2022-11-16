@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #eee;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: max-content;
+    height: 70px;
+}
+
+#listanav {
+    display: flex;
+}
+
+.itensnav {
+    margin-right: 17px;
+    list-style: none;
+    font-size: 22px;
+}
+
+#logo {
+    height: inherit;
+    width: 230px;
+    margin-left: 20px;
+}
+
+/* Empresa */
+#principal {
+    background-color: rgba(25, 25, 25, 0.9);
+    min-width: auto;
+    height: 450px;
+}
+
+#txts {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: inherit;
+}
+
+.textosprincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 35px;
+    color: white;
+}
+
+.textos {
+    height: 280px;
+    width: 35%;
+    background-color: royalblue;
+    justify-items: center;
+    display:grid ;
+}
+
+.textosquem {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.tituloprincipal {
+    font-size: 40px;
+}
+
+/* Produtos */
+
+#produto {
+    background-color: rgb(94, 89, 89);
+    min-width: auto;
+    height: 370px;
+}
+
+#todosprodutos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.produtos {
+    width: 18%;
+    height: 280px;
+    background-color: #111;
+    cursor: pointer;
+}
+
+.imagensprodutos {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    height: 140px;
+}
+
+.produtos h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.produtos:hover {
+    transform: scale(1.5);
+    border-radius: 8px;
+}
+
+.textoprodutos {
+    display: flex;
+    justify-self: center;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    max-width: max-content;
+}
+
+
+/* Quem somos */
+
+#quemsomos {
+    background-color: gray;
+    height: max-content;
+    width: auto;
+}
+
+#fotosquartos {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2);
+    grid-gap: 15px
+}
+
+.exemploprodutos {
+    width: 100%;
+}
+
+.fotoprodutos {
+    width: 100%;
+    height: 300px;
+}
+/* Rodapé */
+#rodape {
+    width: auto;
+    height: 170px;
+    background-color: rgb(46, 35, 35);
+}
+
+#conteudorodape {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
